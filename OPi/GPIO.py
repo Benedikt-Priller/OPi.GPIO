@@ -355,13 +355,13 @@ Methods
 
 import warnings
 
-from OPi.constants import IN, OUT
-from OPi.constants import LOW, HIGH                     # noqa: F401
-from OPi.constants import NONE, RISING, FALLING, BOTH   # noqa: F401
-from OPi.constants import BCM, BOARD, SUNXI, CUSTOM
-from OPi.constants import PUD_UP, PUD_DOWN, PUD_OFF     # noqa: F401
-from OPi.pin_mappings import get_gpio_pin, set_custom_pin_mappings
-from OPi import event, sysfs
+from OPi_GPIO.OPi.constants import IN, OUT
+from OPi_GPIO.OPi.constants import LOW, HIGH                     # noqa: F401
+from OPi_GPIO.OPi.constants import NONE, RISING, FALLING, BOTH   # noqa: F401
+from OPi_GPIO.OPi.constants import BCM, BOARD, SUNXI, CUSTOM
+from OPi_GPIO.OPi.constants import PUD_UP, PUD_DOWN, PUD_OFF     # noqa: F401
+from OPi_GPIO.OPi.pin_mappings import get_gpio_pin, set_custom_pin_mappings
+from OPi_GPIO.OPi import event, sysfs
 
 _gpio_warnings = True
 _mode = None
