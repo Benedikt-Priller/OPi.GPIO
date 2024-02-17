@@ -16,8 +16,8 @@ Usage:
 """
 
 # GPIOx_yz; x = group_number, y = letter, z = pin_number
-# pin number = group_number * 32 + pin_number
-# Example: GPIO2_C7 = 2 * 32 + 7 = 71
+# pin number = group_number * 32 + (letter * pin_number) + letter - 1
+# Example: GPIO2_A2 = 2 * 32 + 7 = 39
 
 # NanoPi NEO 3 physical board pin to GPIO pin
 BOARD = {
