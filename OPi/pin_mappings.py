@@ -4,7 +4,7 @@
 
 import functools
 from copy import deepcopy
-from OPi.constants import BOARD, BCM, SUNXI, CUSTOM
+from OPi_GPIO.OPi.constants import BOARD, BCM, SUNXI, CUSTOM
 
 
 class _sunXi(object):
