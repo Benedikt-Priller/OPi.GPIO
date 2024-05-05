@@ -21,10 +21,10 @@ pytest_runner = ['pytest-runner'] if needs_pytest else []
 test_deps = ["mock", "pytest", "pytest-cov", "pyfakefs"]
 
 setup(
-    name="OPi_GPIO",
+    name="npi.gpio",
     version=version,
-    author="Richard Hull",
-    author_email="richard.hull@destructuring-bind.org",
+    author="Benedikt Priller",
+    author_email="benedikt.priller@pri-os.de",
     description=("A drop-in replacement for RPi.GPIO for the Orange Pi Zero"),
     long_description="\n\n".join([README, CONTRIB, CHANGES]),
     license="MIT",
