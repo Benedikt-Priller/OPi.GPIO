@@ -21,7 +21,7 @@ pytest_runner = ['pytest-runner'] if needs_pytest else []
 test_deps = ["mock", "pytest", "pytest-cov", "pyfakefs"]
 
 setup(
-    name="npi.gpio",
+    name="npi_gpio",
     version=version,
     author="Benedikt Priller",
     author_email="benedikt.priller@pri-os.de",

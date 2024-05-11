@@ -7,8 +7,8 @@ import select
 
 from select import EPOLLIN, EPOLLET, EPOLLPRI
 
-from OPi_GPIO.OPi.constants import NONE, RISING, FALLING, BOTH
-from OPi_GPIO.OPi import sysfs
+from npi_gpio.OPi.constants import NONE, RISING, FALLING, BOTH
+from npi_gpio.OPi import sysfs
 
 
 _threads = {}
